@@ -15,6 +15,7 @@ import { SubscriptionComponent } from './components/subscription/subscription.co
 import { CommentComponent } from './components/comment/comment.component';
 import { CommentsComponent } from './components/comments/comments.component';
 import { InfoComponent } from './pages/info/info.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { InfoComponent } from './pages/info/info.component';
     SubscriptionComponent,
     CommentComponent,
     CommentsComponent,
-    InfoComponent
+    InfoComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
