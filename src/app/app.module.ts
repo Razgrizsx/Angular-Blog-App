@@ -3,10 +3,34 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/header/header.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HomeComponent } from './pages/home/home.component';
+import { SingleComponent } from './pages/single/single.component';
+import { PostComponent } from './pages/post/post.component';
+import { TermsComponent } from './pages/terms/terms.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { SubscriptionComponent } from './components/subscription/subscription.component';
+import { CommentComponent } from './components/comment/comment.component';
+import { CommentsComponent } from './components/comments/comments.component';
+import { InfoComponent } from './pages/info/info.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    NavBarComponent,
+    FooterComponent,
+    HomeComponent,
+    SingleComponent,
+    PostComponent,
+    TermsComponent,
+    ContactComponent,
+    SubscriptionComponent,
+    CommentComponent,
+    CommentsComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,
