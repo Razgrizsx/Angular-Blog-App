@@ -1,0 +1,26 @@
+.card{
+    border: none;
+    box-shadow: 0px 0px 33px -10px rgb(71, 114, 254, 0.3);
+}
+
+input{
+    border: none;
+    box-shadow: 0px 0px 33px -10px rgb(71, 114, 254, 0.3);
+}
+
+textarea{
+    border: none;
+    box-shadow: 0px 0px 33px -10px rgb(71, 114, 254, 0.3);
+}
+
+button{
+    border: none;
+    background-color: var(--mediumblue);
+    color: var(--vlightblue);
+}
+
+button:hover{
+    border: none;
+    background-color: var(--vlightblue);
+    color: var(--mediumblue);
+}

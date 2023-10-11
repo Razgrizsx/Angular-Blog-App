@@ -35,3 +35,11 @@ p{
 .bg-theme{
     background-color: var(--darkblue);
 }
+
+.bg-secondary-theme{
+    background-color: var(--lightblue);
+}
+
+.text-theme-primary{
+    color: var(--darkblue);
+}

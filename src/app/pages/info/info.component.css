@@ -1,0 +1,19 @@
+section{
+    border-radius: 10px;
+}
+
+div{
+    border-radius: 10px;
+}
+
+button{
+    border: none;
+    background-color: var(--mediumblue);
+    color: var(--vlightblue);
+}
+
+button:hover{
+    border: none;
+    background-color: var(--mediumblue);
+    color: var(--darkblue);
+}
