@@ -1,0 +1,12 @@
+.container{
+    padding-top: 10px;
+}
+
+.small{
+    margin-left: 20px;
+}
+
+.card{
+    border: none;
+    box-shadow: 0px 0px 33px -10px rgb(71, 114, 254, 0.3);
+}
